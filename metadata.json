@@ -1,0 +1,6 @@
+{
+  "name": "GDG on Campus – RIT Hassan",
+  "description": "Official developer community hub for Google Developer Groups on Campus at Rajeev Institute of Technology, Hassan (Department of Computer Science and Engineering).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

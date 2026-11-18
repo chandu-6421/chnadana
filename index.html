@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDG on Campus – RIT Hassan | Google Developer Groups</title>
+    <meta
+      name="description"
+      content="Official developer community hub for GDG on Campus at Rajeev Institute of Technology, Hassan (Dept. of CSE). Explore workshops, CODESTORM 2026, learning tracks, and student projects."
+    />
+    <meta property="og:title" content="GDG on Campus – RIT Hassan" />
+    <meta
+      property="og:description"
+      content="Student developer community at Rajeev Institute of Technology, Hassan. Workshops, hackathons, Web, Android, AI/ML, and Cloud learning tracks."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/logos/gdg.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('gdg-rit-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-slate-900 antialiased dark:bg-[#0B0F17] dark:text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
